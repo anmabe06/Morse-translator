@@ -7,12 +7,14 @@ This is a morse to text, and text to morse translator
 
 This is a step by step guide on how to do it:
   1. Define the alphabet (Morse and "Normal") in two different arrays:
-        var codigoMorse = [
-            '.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '--.--', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..', '.----', '..---', '...--', '....-', '.....', '-....', '--...', '---..', '----.', '-----', '/', ' '];
+      ```
+      var codigoMorse = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '--.--', '---', '.--.', '--.-', '.-.', '...', '-',      '..-', '...-', '.--', '-..-', '-.--', '--..', '.----', '..---', '...--', '....-', '.....', '-....', '--...', '---..', '----.', '-----', '/', ' '];
 
-        var codigoTexto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', ''];
+    var codigoTexto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', ''];
+    ```
   
   2. Create a function to translate text to morse code:
+        ```
         function traductorTextoMorse(cadena){
           var auxiliar = '';
           letras = cadena.split('');
@@ -23,8 +25,10 @@ This is a step by step guide on how to do it:
           }
           console.log(auxiliar);
         }
+        ```
 
   3. Create a function to translate morse code to text:
+        ```
         function traductorMorseTexto(cadena){
           var auxiliar = '';
           caracteres = cadena.split(' ');
@@ -35,8 +39,10 @@ This is a step by step guide on how to do it:
           }
           console.log(auxiliar);
         }
+        ```
   
   4. Create a recursive function to initialize the program:
+        ```
         function start(){
           var choose = prompt("Qué quieres traducir?\n Morse --> Texto [1]\n Texto --> Morse [2]\n\n");
 
@@ -61,8 +67,11 @@ This is a step by step guide on how to do it:
           }
           start();
           }
+          ```
   
   5. Call the function:
+        ```
         start();
+        ```
   
   6. Translate!
