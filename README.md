@@ -1,5 +1,6 @@
 # Morse-translator
 Code by anmabe06
+
 (Code variables are in spanish)
 
 This is a morse to text, and text to morse translator
