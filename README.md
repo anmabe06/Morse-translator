@@ -41,9 +41,9 @@ This is a step by step guide on how to do it:
         ```
   
   4. Create a recursive function to initialize the program:
-        ```
-        function start(){
-	var choose = prompt("Qué quieres traducir?\n Morse --> Texto [1]\n Texto --> Morse [2]\n\n");
+     ```
+         function start(){
+	 var choose = prompt("Qué quieres traducir?\n Morse --> Texto [1]\n Texto --> Morse [2]\n\n");
 
         switch(choose){
           case "1":
