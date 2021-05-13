@@ -59,7 +59,7 @@ This is a step by step guide on how to do it:
               break;
           }
           start();
-        }
+          }
   
   5. Call the function:
         start();
