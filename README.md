@@ -63,12 +63,12 @@ This is a step by step guide on how to do it:
             console.log('\n___________________________\n\n');
             console.log("\nPor favor, selecciona 1 o 2");
             break;
-        }
-        start();
+         }
+         start();
         }
   
   5. Call the function:
-	```
-	start();
-  
+        ```
+        start()
+	
   6. Translate!
