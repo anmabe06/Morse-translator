@@ -68,7 +68,7 @@ This is a step by step guide on how to do it:
         }
   
   5. Call the function:
-        ```
-        start();
+	```
+	start();
   
   6. Translate!
